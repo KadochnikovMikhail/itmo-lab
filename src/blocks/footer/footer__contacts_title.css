@@ -1,0 +1,10 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__contacts_title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 auto 8px 0;
+  }
+}
+
+/*# sourceMappingURL=footer__contacts_title.css.map */

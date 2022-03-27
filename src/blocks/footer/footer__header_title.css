@@ -1,0 +1,11 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__header_title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    width: 140px;
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=footer__header_title.css.map */

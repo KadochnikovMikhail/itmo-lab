@@ -1,0 +1,13 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer__list_items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+  }
+}
+
+/*# sourceMappingURL=footer__list_items.css.map */

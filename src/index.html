@@ -5,32 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ИТМО Lab</title>
-<body class="page">
-    <header class="header">
-        <img class="logo" alt="Логотип" src="<%=require('./images/logo.svg')%>">
-        <nav class="menu">
-            <div class="menu__item"></div>
-            <div class="menu__item"></div>
-            <div class="menu__item"></div>
-            <div class="menu__item"></div>
-            <div class="menu__item"></div>
-            <div class="menu__item"></div>
-            <div class="menu__item"></div>
-        </nav>
-        <section class="title"></section>
-        <section class="about-us"></section>
-    </header>
-    <main class="main">
-        <section class="lab-description"></section>
-        <section class="projects"></section>
-        <section class="education"></section>
-        <section class="publications"></section>
-        <section class="team"></section>
-        <section class="partners"></section>
-        <section class="connection"></section>
-    </main>
-    <footer class="footer">
 
-    </footer>
+<body class="page">
+<header class="header">
+    <img class="logo" alt="Логотип" src="<%=require('./images/logo.svg')%>">
+    <nav class="menu">
+        <div class="menu__item"></div>
+        <div class="menu__item"></div>
+        <div class="menu__item"></div>
+        <div class="menu__item"></div>
+        <div class="menu__item"></div>
+        <div class="menu__item"></div>
+        <div class="menu__item"></div>
+    </nav>
+    <section class="title"></section>
+    <section class="about-us"></section>
+</header>
+<main class="main">
+    <section class="lab-description"></section>
+    <section class="projects"></section>
+    <section class="education"></section>
+    <section class="publications"></section>
+    <section class="team"></section>
+    <section class="partners"></section>
+    <section class="connection"></section>
+</main>
+<footer class="footer">
+    <div class="footer__header">
+        <img class="footer__header_logo" alt="Логотип" src="<%=require('./images/logo.svg')%>">
+        <p class="footer__header_title">Информация © 2020 <br> Университет ИТМО</p>
+    </div>
+    <div class="footer__lists">
+        <div class="footer__list">
+            <h2 class="footer__list_title">О центре</h2>
+            <ul class="footer__list_items">
+                <li>О нас</li>
+                <li>Главная</li>
+                <li>Команда</li>
+                <li>Лаборатория</li>
+                <li>Контакты</li>
+            </ul>
+        </div>
+        <div class="footer__list">
+            <h2 class="footer__list_title">Развитие</h2>
+            <ul class="footer__list_items">
+                <li>Образование</li>
+                <li>Аспирантура</li>
+                <li>Магистратура</li>
+                <li>Публикации</li>
+                <li>Проекты</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__contacts">
+        <h2 class="footer__contacts_title">г.Санкт-Петербург</h2>
+        <p class="footer__contacts_address">199034, Санкт-Петербург,<br>
+            Биржевая линия, д. 4, лит. М, ауд. 302С
+        </p>
+        <p class="footer__contacts_numbers">
+            +7 (812) 337-64-90<br>
+            +7 (812) 337-64-94
+        </p>
+        <p class="footer__contacts_email">
+            anna.lutsenko@itmo.ru
+        </p>
+        <div class="footer__contacts_icons">
+            <img class="footer__contacts_icons-item" alt="Логотип" src="<%=require('./images/VK-WhiteIcon.svg')%>">
+            <img class="footer__contacts_icons-item" alt="Логотип" src="<%=require('./images/Facebook-WhiteIcon.svg')%>">
+            <img class="footer__contacts_icons-item" alt="Логотип" src="<%=require('./images/Telegram-WhiteIcon.svg')%>">
+            <img class="footer__contacts_icons-item" alt="Логотип" src="<%=require('./images/Inst-WhiteIcon.svg')%>">
+            <img class="footer__contacts_icons-item" alt="Логотип" src="<%=require('./images/YouTube-WhiteIcon.svg')%>">
+        </div>
+    </div>
+
+</footer>
 </body>
 </html>

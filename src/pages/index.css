@@ -1,0 +1,16 @@
+@import url(../vendor/fonts.css);
+@import url(../blocks/footer/footer.scss);
+@import url(../blocks/footer/footer__header.scss);
+@import url(../blocks/footer/footer__header_logo.scss);
+@import url(../blocks/footer/footer__header_title.scss);
+@import url(../blocks/footer/footer__list_items.scss);
+@import url(../blocks/footer/footer__lists.scss);
+@import url(../blocks/footer/footer__list-title.scss);
+@import url(../blocks/footer/footer__list.scss);
+@import url(../blocks/footer/footer__contacts.scss);
+@import url(../blocks/footer/footer__contacts_title.scss);
+@import url(../blocks/footer/footer__contacts_numbers.scss);
+@import url(../blocks/footer/footer__contacts_address.scss);
+@import url(../blocks/footer/footer__contacts_email.scss);
+@import url(../blocks/footer/footer__contacts_icons-item.scss);
+
