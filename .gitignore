@@ -1,4 +1,4 @@
 dist
 node_modules
-*.map
-*.css
+/blocks/*.map
+/blocks/*.css
