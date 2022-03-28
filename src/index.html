@@ -28,7 +28,26 @@
     <section class="publications"></section>
     <section class="team"></section>
     <section class="partners"></section>
-    <section class="connection"></section>
+    <section class="connection">
+        <h2 class="connection__title">ВСЕГДА НА СВЯЗИ</h2>
+        <p class="connection__info">
+            По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам, написать на почту или
+            оставтиь свое сообщение через форму обратной связи.
+        </p>
+        <form class="connection__form">
+            <input class="connection__form_input" type="text" id="name" placeholder="Имя" required minLength="2"
+                   maxLength="30">
+            <input class="connection__form_input" type="text" id="surname" placeholder="Фамилия" required minLength="2"
+                   maxLength="30">
+            <input class="connection__form_input" type="tel" id="telephone" placeholder="Телефон" required minLength="2"
+                   maxLength="30">
+            <input class="connection__form_input" type="email" id="email" placeholder="E-mail" required minLength="2"
+                   maxLength="30">
+            <input class="connection__form_input" style="height: 140px" type="text" id="message" placeholder="Сообщение" required minLength="2"
+                   maxLength="100" >
+        </form>
+        <button class="connection__btn">ОТПРАВИТЬ</button>
+    </section>
 </main>
 <footer class="footer">
     <div class="footer__header">
@@ -71,8 +90,10 @@
         </p>
         <div class="footer__contacts_icons">
             <img class="footer__contacts_icons-item" alt="Логотип" src="<%=require('./images/VK-WhiteIcon.svg')%>">
-            <img class="footer__contacts_icons-item" alt="Логотип" src="<%=require('./images/Facebook-WhiteIcon.svg')%>">
-            <img class="footer__contacts_icons-item" alt="Логотип" src="<%=require('./images/Telegram-WhiteIcon.svg')%>">
+            <img class="footer__contacts_icons-item" alt="Логотип"
+                 src="<%=require('./images/Facebook-WhiteIcon.svg')%>">
+            <img class="footer__contacts_icons-item" alt="Логотип"
+                 src="<%=require('./images/Telegram-WhiteIcon.svg')%>">
             <img class="footer__contacts_icons-item" alt="Логотип" src="<%=require('./images/Inst-WhiteIcon.svg')%>">
             <img class="footer__contacts_icons-item" alt="Логотип" src="<%=require('./images/YouTube-WhiteIcon.svg')%>">
         </div>

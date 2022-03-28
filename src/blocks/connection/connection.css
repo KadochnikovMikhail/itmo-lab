@@ -1,0 +1,73 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .connection {
+    background-color: #009FAC;
+    display: flex;
+    flex-direction: column;
+    font-family: "OpenSans";
+    font-style: normal;
+    color: #FFFFFF;
+  }
+  .connection .connection__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin: 40px 16px 23px;
+  }
+  .connection .connection__info {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 16px 23px;
+  }
+  .connection .connection__form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 11px;
+    min-width: 288px;
+  }
+  .connection .connection__form .connection__form_input {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: none;
+    padding: 11px 10px;
+  }
+  .connection .connection__form .connection__form_input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #009FAC;
+  }
+  .connection .connection__form .connection__form_input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #009FAC;
+  }
+  .connection .connection__form .connection__form_input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #009FAC;
+  }
+  .connection .connection__form .connection__form_input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #009FAC;
+  }
+  .connection .connection__btn {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 288px;
+    height: 44px;
+    background-color: #009FAC;
+    margin: 0 auto 40px;
+  }
+  .connection .connection__btn .connection__btn:hover {
+    border: 1px solid #009FAC;
+    color: #009FAC;
+  }
+}
+
+/*# sourceMappingURL=connection.css.map */
