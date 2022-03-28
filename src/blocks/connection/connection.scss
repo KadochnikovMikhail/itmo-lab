@@ -36,6 +36,7 @@
         border-radius: 5px;
         border: none;
         padding: 11px 10px;
+        height: 22px;
       }
 
       .connection__form_input::-webkit-input-placeholder { /* WebKit browsers */
@@ -66,10 +67,7 @@
       height: 44px;
       background-color: #009FAC;
       margin: 0 auto 40px;
-      .connection__btn:hover{
-        border: 1px solid #009FAC;
-        color:#009FAC;
-      }
+      cursor: pointer;
     }
   }
 }
