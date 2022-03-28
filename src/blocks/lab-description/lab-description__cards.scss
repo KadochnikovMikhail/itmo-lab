@@ -1,0 +1,6 @@
+.lab-description__cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    margin: 0 16px 32px;
+    gap: 8px;
+}
