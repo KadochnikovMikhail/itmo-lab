@@ -21,3 +21,16 @@ import  VKBlueIcon from '../images/VK-BlueIcon.svg';
 import  VKWhiteIcon from '../images/VK-WhiteIcon.svg';
 import  YouTubeBlueIcon from '../images/YouTube-BlueIcon.svg';
 import  YouTubeWhiteIcon from '../images/YouTube-WhiteIcon.svg';
+import  Services from '../images/services.svg';
+import  Phone from '../images/phone.svg';
+import  MdiRobot from '../images/mdi-robot.svg';
+import  JamMicrochip from '../images/jam_microchip.svg';
+import  FluentMail from '../images/fluent-mail.svg';
+import  FluentBrain from '../images/fluent-brain.svg';
+import  Close from '../images/close.svg';
+import  ClarityShare from '../images/clarity_share.svg';
+import  ChevronDown from '../images/Chevron-down.svg';
+import  BurgerMenu from '../images/BurgerMenu.svg';
+
+
+
