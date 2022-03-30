@@ -12,11 +12,11 @@
     opacity: 1;
     transition: visibility 0.5s linear, opacity 0.5s linear;
     z-index: 1;
+    font-family: 'Open Sans', Arial, sans-serif;
 
     &__title {
         margin: 16px 16px 15px;
         padding: 0;
-        font-family: 'Open Sans', Arial, sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 14px;
@@ -32,7 +32,6 @@
     &__pharagraph{
         margin: 10px 16px 16px;
         padding: 0;
-        font-family: 'Open Sans', Arial, sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
