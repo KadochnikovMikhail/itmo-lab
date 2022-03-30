@@ -6,5 +6,95 @@
     background-color: #001337;
     display: flex;
     flex-direction: column;
+
+    &__contacts {
+      margin: 0 73px 21px 17px;
+
+      &_address {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        margin: 0 0 8px;
+      }
+
+      &_email {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        margin: 0 0 21px;
+      }
+
+      &_icons-item {
+        width: 22px;
+        height: 22px;
+        margin-right: 10px;
+      }
+
+      &_numbers {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        margin: 0 0 8px;
+      }
+
+      &_title {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        margin: 0 auto 8px 0;
+      }
+    }
+
+    &__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 40px 17px;
+
+      &_logo {
+        height: 33px;
+        margin-right: 49px;
+      }
+
+      &_title {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        width: 140px;
+        margin: 0;
+      }
+    }
+
+    &__list {
+      width: 140px;
+
+      &_title {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.0588372px;
+        margin: 0 0 8px 0;
+      }
+
+      &_items {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+      }
+    }
+
+    &__lists {
+      display: flex;
+      flex-direction: row;
+      margin: 0 17px 40px;
+      justify-content: space-between;
+    }
   }
 }

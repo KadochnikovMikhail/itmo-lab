@@ -1,17 +1,4 @@
 @import url(../vendor/fonts.css);
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/footer__header.css);
-@import url(../blocks/footer/footer__header_logo.css);
-@import url(../blocks/footer/footer__header_title.css);
-@import url(../blocks/footer/footer__list_items.css);
-@import url(../blocks/footer/footer__lists.css);
-@import url(../blocks/footer/footer__list-title.css);
-@import url(../blocks/footer/footer__list.css);
-@import url(../blocks/footer/footer__contacts.css);
-@import url(../blocks/footer/footer__contacts_title.css);
-@import url(../blocks/footer/footer__contacts_numbers.css);
-@import url(../blocks/footer/footer__contacts_address.css);
-@import url(../blocks/footer/footer__contacts_email.css);
-@import url(../blocks/footer/footer__contacts_icons-item.css);
 
+@import url(../blocks/footer/footer.css);
 @import url(../blocks/connection/connection.css);
