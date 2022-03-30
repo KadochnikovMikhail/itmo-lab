@@ -1,0 +1,15 @@
+.lead__button {
+    margin: 36px 0 0;
+    padding: 0;
+    color: white;
+    background-color: transparent;
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    min-height: 44px;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+}

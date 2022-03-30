@@ -1,0 +1,11 @@
+.about-us__swiper-pagination-bullet {
+    background-color: white;
+    opacity: 50%;
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+    border-radius: 50%;
+    background: var(--swiper-pagination-bullet-inactive-color, #fff);
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+    margin: 0 4px;
+}

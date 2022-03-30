@@ -1,0 +1,7 @@
+.header__nav-line {
+    background-color: #000D26;
+    min-height: 44px;
+    display: flex;
+    position: relative;
+    
+}

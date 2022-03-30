@@ -1,5 +1,9 @@
-h1 {
-  border: 1px solid red;
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
 }
+
+
 
 /*# sourceMappingURL=page.css.map */

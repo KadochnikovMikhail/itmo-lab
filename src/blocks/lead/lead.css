@@ -1,0 +1,11 @@
+.lead {
+    background-image: url(../../images/title-background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-width: 320px;
+    min-height: 412px;
+    padding: 30px 16px 58px;
+    box-sizing: border-box;
+    background-color: #001337;
+}

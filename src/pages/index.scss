@@ -1,2 +1,29 @@
 @import url(../blocks/page.scss);
+@import url(../blocks/page.css);
+
 @import url(../vendor/fonts.css);
+@import url(../fonts/fonts.css);
+@import url(../../node_modules/swiper/swiper-bundle.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__burger-menu-button/header__burger-menu-button.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__nav-line/header__nav-line.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title-text/lead__title-text.css);
+@import url(../blocks/lead/__title-text_bold/lead__title-text_bold.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__button/lead__button.css);
+
+@import url(../blocks/about-us/about-us.css);
+@import url(../blocks/about-us/__title/about-us__title.css);
+@import url(../blocks/about-us/__text/about-us__text.css);
+
+@import url(../blocks/about-us/__swiper/about-us__swiper.css);
+@import url(../blocks/about-us/__swiper-slide/about-us__swiper-slide.css);
+@import url(../blocks/about-us/__swiper-wrapper/about-us__swiper-wrapper.css);
+@import url(../blocks/about-us/__swiper-pagination/about-us__swiper-pagination.css);
+@import url(../blocks/about-us/__swiper-pin/about-us__swiper-pin.css);
+@import url(../blocks/about-us/__swiper-pagination-bullet/about-us__swiper-pagination-bullet.css);
+@import url(../blocks/about-us/__swiper-pagination-bullet/_active/about-us__swiper-pagination-bullet_active.css);

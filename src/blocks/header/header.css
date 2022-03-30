@@ -1,0 +1,7 @@
+.header {
+    min-width: 320px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}

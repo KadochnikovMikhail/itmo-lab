@@ -7,7 +7,10 @@
     <title>ИТМО Lab</title>
 <body class="page">
     <header class="header">
-        <img class="logo" alt="Логотип" src="<%=require('./images/logo.svg')%>">
+        <div class = "header__nav-line">
+            <img class="header__burger-menu-button" alt="Меню" src="<%=require('./images/Burger-menu.svg')%>">
+            <img class="header__logo" alt="Логотип" src="<%=require('./images/logo.svg')%>">
+        </div>
         <nav class="menu">
             <div class="menu__item"></div>
             <div class="menu__item"></div>
@@ -17,8 +20,38 @@
             <div class="menu__item"></div>
             <div class="menu__item"></div>
         </nav>
-        <section class="title"></section>
-        <section class="about-us"></section>
+
+        <section class="lead">
+            <h1 class = "lead__title-text"><span class = "lead__title-text_bold">Когнитивные технологии,</span> машинное обучение</h1>
+            <p class = "lead__subtitle">Системы прикладного искусственного интеллекта</p>
+            <a href="#"><button class = "lead__button">наши проекты</button></a>            
+        </section>
+
+        <section class="about-us">
+            <h2 class = "about-us__title">НЕСКОЛЬКО СЛОВ О НАС</h2>
+            <p class = "about-us__text">Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения 
+                и когнитивные технологии».</p>
+                
+            <div class="about-us__swiper swiper">
+                <div class="about-us__swiper-wrapper swiper-wrapper">
+                    
+                    <div class="about-us__swiper-slide swiper-slide">
+                        <img class="about-us__swiper-pin" alt="Штифт" src="<%=require('./images/bulavka.svg')%>">
+                    </div>
+                    <div class="about-us__swiper-slide swiper-slide">
+                        <img class="about-us__swiper-pin" alt="Штифт" src="<%=require('./images/bulavka.svg')%>">
+                    </div>
+                    <div class="about-us__swiper-slide swiper-slide">
+                        <img class="about-us__swiper-pin" alt="Штифт" src="<%=require('./images/bulavka.svg')%>">
+                    </div>
+                    <div class="about-us__swiper-slide swiper-slide">
+                        <img class="about-us__swiper-pin" alt="Штифт" src="<%=require('./images/bulavka.svg')%>">
+                    </div>
+                </div>
+            </div>
+            <div class="about-us__swiper-pagination swiper-pagination"></div>
+                
+        </section>
     </header>
     <main class="main">
         <section class="lab-description"></section>
