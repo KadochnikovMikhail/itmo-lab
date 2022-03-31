@@ -1,0 +1,41 @@
+.link-holder {
+  background-color: #009FAC;
+  border-radius: 0px 0px 5px 5px;
+  width: 100%;
+  margin-left: -16px;
+  padding: 11px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.link-holder__link {
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.link-holder__arrow {
+  width: 24px;
+  height: 24px;
+  margin-left: 11px;
+}
+
+.link-holder__share-icon {
+  width: 24px;
+  height: 24px;
+}
+/*# sourceMappingURL=link-holder.css.map */

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ИТМО Lab</title>
+</head>
 <body class="page">
     <header class="header">
         <img class="logo" alt="Логотип" src="<%=require('./images/logo.svg')%>">
@@ -25,21 +26,50 @@
         <section class="projects"></section>
         <section class="education"></section>
         <section class="publications">
-            <h2 class="publications__title">Публикации</h2>
+            <h2 class="publications__title">ПУБЛИКАЦИИ</h2>
             <ul class="publications__list">
                 <li class="publication">
+                    <img class="publication__img" src="<%=require('./images/Publication/publication-Ensemble-for-Online-Advertising-Generation.png')%>" alt="фото публикации">
                     <h3 class="publication__title">Topic-driven Ensemble for Online Advertising Generation</h3>
                     <p class="publication__author">Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov, Denis Nasonov</p>
-                    <p class="publication__subtitle">Online advertising is one of the most widespread ways to reach and increase a target audience for those selling products. Usually having a form of a banner, advertising engages users into visiting a corresponding webpage. 
-                        Professional generation of banners requires creative and writing skills and a basic understanding of target products</p>
+                    <p class="publication__preview">Online advertising is one of the most widespread ways to reach and increase a target audience for those selling products. Usually having a form of a banner, advertising engages users into visiting a corresponding webpage. 
+                        Professional generation of banners requires creative and writing skills and a basi...</p>
                     <div class="link-holder">
-                        <a class="link-holder__link">
+                        <a class="link-holder__link" href="#">
                             Читать полностью 
-                            <img class="link-holder__arrow"  src="" alt="Стрелочка">
+                            <img class="link-holder__arrow"  src="<%=require('./images/arrow-down.svg')%>"  alt="Стрелочка">
                         </a>
-                        <img class="link-holder__share-icon" src="" alt="Поделиться">
+                        <img class="link-holder__share-icon" src="<%=require('./images/share-btn.svg')%>" alt="Поделиться">
                     </div>
                 </li>
+                <!-- <li class="publication">
+                    <img class="publication__img" src="<%=require('./images/Publication/publication_Convolutional-neural-networks.png')%>" alt="фото публикации">
+                    <h3 class="publication__title">Convolutional neural networks with hierarchical context transfe…</h3>
+                    <p class="publication__author">Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
+                    <p class="publication__preview">In this work, we consider a problem of predicting the next state of a given area using retrospective information. 
+                        The proposed concept of hierarchical context transfer (HCT) operates on several spatial levels of the input data to overcome major issues of next state 
+                        prediction problems - density variability, a sig…</p>
+                    <div class="link-holder">
+                        <a class="link-holder__link" href="#">
+                            Читать полностью 
+                            <img class="link-holder__arrow"  src="<%=require('./images/arrow-down.svg')%>"  alt="Стрелочка">
+                        </a>
+                        <img class="link-holder__share-icon" src="<%=require('./images/share-btn.svg')%>" alt="Поделиться">
+                    </div>
+                </li>
+                <li class="publication">
+                    <img class="publication__img" src="<%=require('./images/Publication/publication_Spatiotemporal-Filtering-Pipeline.png')%>" alt="фото публикации">
+                    <h3 class="publication__title"></h3>
+                    <p class="publication__author"></p>
+                    <p class="publication__preview"></p>
+                    <div class="link-holder">
+                        <a class="link-holder__link" href="#">
+                            Читать полностью 
+                            <img class="link-holder__arrow"  src="<%=require('./images/arrow-down.svg')%>"  alt="Стрелочка">
+                        </a>
+                        <img class="link-holder__share-icon" src="<%=require('./images/share-btn.svg')%>" alt="Поделиться">
+                    </div>
+                </li> -->
             </ul>
             <div class="slider"></div>
         </section>

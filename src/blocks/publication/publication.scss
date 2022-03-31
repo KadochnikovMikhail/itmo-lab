@@ -1,0 +1,44 @@
+.publication {
+  background-color: #FFF;
+  width: 100%;
+  padding: 16px;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+  border-radius: 5px;
+  max-height: 462px;
+  &__img {
+    border-radius: 5px;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 8px;
+    height: 160px;
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 4px;
+  }
+
+  &__author {
+    margin: 0;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 145%;
+    color: #009FAC;
+    margin-bottom: 10px;
+  }
+
+  &__preview {
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+  }
+}
