@@ -1,0 +1,29 @@
+.link-holder {
+  background-color: #009FAC;
+  border-radius: 0px 0px 5px 5px;
+  width: 100%;
+  margin-left: -16px;
+  padding: 11px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__link {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+  }
+
+  &__arrow {
+    width: 24px;
+    height: 24px;
+    margin-left: 11px;
+  }
+
+  &__share-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
