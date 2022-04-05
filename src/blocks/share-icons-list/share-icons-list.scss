@@ -1,0 +1,28 @@
+.share-icons-list {
+  list-style: none;
+  margin: 0;
+  padding: 17px;
+  box-sizing: border-box;
+  display: none;
+  // visibility: hidden;
+  justify-content: center;
+  gap: 10px;
+  width: 184px; 
+  height: 56px; 
+  margin-left: 26px;
+  background-color: #fff;
+  position: absolute;
+  right: 0px;
+  bottom: 46px;
+}
+.share-icons-list:before {
+  content: "";
+  width: 0; 
+  height: 0;
+  position: absolute; 
+  bottom: -7px;
+  right: 17px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #fff;
+  }

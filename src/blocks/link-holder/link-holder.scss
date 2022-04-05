@@ -14,6 +14,7 @@
     color: #FFFFFF;
     display: flex;
     align-items: center;
+    text-decoration: none;
   }
 
   &__arrow {
@@ -22,7 +23,10 @@
     margin-left: 11px;
   }
 
-  &__share-icon {
+  &__share {
+    background-image: url(../../images/share-btn.svg);
+    background-color: transparent;
+    border: 0;
     width: 24px;
     height: 24px;
   }

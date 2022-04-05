@@ -1,5 +1,10 @@
 @import url(../blocks/page.scss);
 @import url(../vendor/fonts.css);
+
 @import url(../blocks/publications/publications.css);
 @import url(../blocks/publication/publication.css);
+
 @import url(../blocks/link-holder/link-holder.css);
+
+@import url(../blocks/share-icons-list/share-icons-list.css);
+@import url(../blocks/share-icon/share-icon.css);

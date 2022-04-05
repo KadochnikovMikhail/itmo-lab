@@ -1,0 +1,26 @@
+.share-icon {
+  width: 22px;
+  height: 22px;
+  border: 0;
+}
+
+.share-icon__vk {
+  background-image: url(../../images/VK-BlueIcon.svg);
+}
+
+.share-icon__facebook {
+  background-image: url(../../images/Facebook-BlueIcon.svg);
+}
+
+.share-icon__telegram {
+  background-image: url(../../images/Telegram-BlueIcon.svg);
+}
+
+.share-icon__insta {
+  background-image: url(../../images/Inst-BlueIcon.svg);
+}
+
+.share-icon__youtube {
+  background-image: url(../../images/YouTube-BlueIcon.svg);
+}
+/*# sourceMappingURL=share-icon.css.map */

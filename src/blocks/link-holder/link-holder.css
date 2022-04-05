@@ -26,6 +26,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: none;
 }
 
 .link-holder__arrow {
@@ -34,7 +35,10 @@
   margin-left: 11px;
 }
 
-.link-holder__share-icon {
+.link-holder__share {
+  background-image: url(../../images/share-btn.svg);
+  background-color: transparent;
+  border: 0;
   width: 24px;
   height: 24px;
 }

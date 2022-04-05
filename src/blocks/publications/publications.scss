@@ -1,5 +1,5 @@
 .publications {
-  padding: 40px 16px;
+  padding: 40px 0;
   font-family: 'OpenSans', 'Arial', 'Helvetica', sans-serif;
   background-color: #E0F0FF;
   color: #000D26;
@@ -15,5 +15,10 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    padding-bottom: 14px;
+    
+  }
+  &__swiper-pagination {
+    text-align: center
   }
 }

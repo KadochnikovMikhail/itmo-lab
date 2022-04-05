@@ -27,51 +27,11 @@
         <section class="education"></section>
         <section class="publications">
             <h2 class="publications__title">ПУБЛИКАЦИИ</h2>
-            <ul class="publications__list">
-                <li class="publication">
-                    <img class="publication__img" src="<%=require('./images/Publication/publication-Ensemble-for-Online-Advertising-Generation.png')%>" alt="фото публикации">
-                    <h3 class="publication__title">Topic-driven Ensemble for Online Advertising Generation</h3>
-                    <p class="publication__author">Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov, Denis Nasonov</p>
-                    <p class="publication__preview">Online advertising is one of the most widespread ways to reach and increase a target audience for those selling products. Usually having a form of a banner, advertising engages users into visiting a corresponding webpage. 
-                        Professional generation of banners requires creative and writing skills and a basi...</p>
-                    <div class="link-holder">
-                        <a class="link-holder__link" href="#">
-                            Читать полностью 
-                            <img class="link-holder__arrow"  src="<%=require('./images/arrow-down.svg')%>"  alt="Стрелочка">
-                        </a>
-                        <img class="link-holder__share-icon" src="<%=require('./images/share-btn.svg')%>" alt="Поделиться">
-                    </div>
-                </li>
-                <!-- <li class="publication">
-                    <img class="publication__img" src="<%=require('./images/Publication/publication_Convolutional-neural-networks.png')%>" alt="фото публикации">
-                    <h3 class="publication__title">Convolutional neural networks with hierarchical context transfe…</h3>
-                    <p class="publication__author">Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
-                    <p class="publication__preview">In this work, we consider a problem of predicting the next state of a given area using retrospective information. 
-                        The proposed concept of hierarchical context transfer (HCT) operates on several spatial levels of the input data to overcome major issues of next state 
-                        prediction problems - density variability, a sig…</p>
-                    <div class="link-holder">
-                        <a class="link-holder__link" href="#">
-                            Читать полностью 
-                            <img class="link-holder__arrow"  src="<%=require('./images/arrow-down.svg')%>"  alt="Стрелочка">
-                        </a>
-                        <img class="link-holder__share-icon" src="<%=require('./images/share-btn.svg')%>" alt="Поделиться">
-                    </div>
-                </li>
-                <li class="publication">
-                    <img class="publication__img" src="<%=require('./images/Publication/publication_Spatiotemporal-Filtering-Pipeline.png')%>" alt="фото публикации">
-                    <h3 class="publication__title"></h3>
-                    <p class="publication__author"></p>
-                    <p class="publication__preview"></p>
-                    <div class="link-holder">
-                        <a class="link-holder__link" href="#">
-                            Читать полностью 
-                            <img class="link-holder__arrow"  src="<%=require('./images/arrow-down.svg')%>"  alt="Стрелочка">
-                        </a>
-                        <img class="link-holder__share-icon" src="<%=require('./images/share-btn.svg')%>" alt="Поделиться">
-                    </div>
-                </li> -->
-            </ul>
-            <div class="slider"></div>
+            <div class="swiper publications__swiper">
+                <ul class="publications__list swiper-wrapper">
+                </ul>
+                <div class="publications__swiper-pagination"></div>
+            </div>
         </section>
         <section class="team"></section>
         <section class="partners"></section>
@@ -80,5 +40,30 @@
     <footer class="footer">
 
     </footer>
+    <template id="publication-template">
+        <li class="swiper-slide publication">
+            <img class="publication__img" alt="фото публикации">
+            <h3 class="publication__title"></h3>
+            <p class="publication__author"></p>
+            <p class="publication__preview"></p>
+            <div class="link-holder">
+                <a class="link-holder__link" href="#">
+                    Читать полностью 
+                    <img class="link-holder__arrow"  src="<%=require('./images/arrow-down.svg')%>"  alt="Стрелочка">
+                </a>
+                <button class="link-holder__share link-holder__share_inactive"></button>
+                <ul class="share-icons-list">
+                    <li><button class="share-icon share-icon__vk"></button></li>
+                    <li><button class="share-icon share-icon__facebook"></button></li>
+                    <li><button class="share-icon share-icon__telegram"></button></li>
+                    <li><button class="share-icon share-icon__insta"></button></li>
+                    <li><button class="share-icon share-icon__youtube"></button></li>
+                </ul>
+            </div>
+        </li>
+    </template>
+    <template id="share-icons-template">
+        
+    </template>
 </body>
 </html>

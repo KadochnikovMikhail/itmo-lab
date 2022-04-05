@@ -1,0 +1,21 @@
+.share-icon {
+  width: 22px;
+  height: 22px;
+  border: 0;
+
+  &__vk {
+    background-image: url(../../images/VK-BlueIcon.svg);
+  }
+  &__facebook {
+    background-image: url(../../images/Facebook-BlueIcon.svg);
+  }
+  &__telegram{
+    background-image: url(../../images/Telegram-BlueIcon.svg);
+  }
+  &__insta{
+    background-image: url(../../images/Inst-BlueIcon.svg);
+  }
+  &__youtube{
+    background-image: url(../../images/YouTube-BlueIcon.svg);
+  }
+}

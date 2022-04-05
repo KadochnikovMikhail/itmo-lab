@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACV,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EAEZ,MAAM,EAAE,CAAC;CAiBV;;AAfE,AAAD,eAAK,CAAC;EACJ,gBAAgB,EAAE,iCAAiC;CACpD;;AACA,AAAD,qBAAW,CAAC;EACV,gBAAgB,EAAE,uCAAuC;CAC1D;;AACA,AAAD,qBAAW,CAAA;EACT,gBAAgB,EAAE,uCAAuC;CAC1D;;AACA,AAAD,kBAAQ,CAAA;EACN,gBAAgB,EAAE,mCAAmC;CACtD;;AACA,AAAD,oBAAU,CAAA;EACR,gBAAgB,EAAE,sCAAsC;CACzD",
+    "sources": [
+        "share-icon.scss"
+    ],
+    "names": [],
+    "file": "share-icon.css"
+}
