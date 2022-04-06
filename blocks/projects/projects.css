@@ -115,6 +115,43 @@
     margin: 0;
     max-width: 172px;
   }
+  .card__large {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 256px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 2;
+    grid-column-end: 3;
+    padding: 16px;
+    background-color: #E0F0FF;
+    border-radius: 5px;
+    background-image: url(../../images/Factory.jpg);
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-blend-mode: multiply;
+  }
+  .card__small {
+    background-color: #009FAC;
+    border-radius: 5px;
+    padding: 10px;
+    width: 120px;
+  }
+  .card__small_left {
+    justify-self: flex-end;
+  }
+  .card__small_right {
+    justify-self: flex-start;
+  }
   .card__button {
     -ms-flex-item-align: end;
         align-self: flex-end;
@@ -162,44 +199,5 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-  }
-
-  .card__large {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    width: 256px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-grid-column: 1;
-        grid-column-start: 1;
-    -ms-grid-column-span: 2;
-    grid-column-end: 3;
-    padding: 16px;
-    background-color: #E0F0FF;
-    border-radius: 5px;
-    background-image: url(../../images/Factory.jpg);
-    background-size: initial;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-blend-mode: multiply;
-  }
-
-  .card__small {
-    background-color: #009FAC;
-    border-radius: 5px;
-    padding: 10px;
-    width: 120px;
-  }
-  .card__small_left {
-    justify-self: flex-end;
-  }
-  .card__small_right {
-    justify-self: flex-start;
   }
 }

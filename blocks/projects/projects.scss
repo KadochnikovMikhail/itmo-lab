@@ -105,6 +105,38 @@
       max-width: 172px;
     }
 
+    &__large {
+      display: flex;
+      flex-direction: row;
+      width: 256px;
+      justify-content: space-between;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      padding: 16px;
+      background-color: #E0F0FF;
+      border-radius: 5px;
+      background-image: url(../../images/Factory.jpg);
+      background-size: initial;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-blend-mode: multiply;
+    }
+  
+    &__small {
+      background-color: #009FAC;
+      border-radius: 5px;
+      padding: 10px;
+      width: 120px;
+  
+      &_left {
+        justify-self: flex-end;
+      }
+  
+      &_right {
+        justify-self: flex-start;
+      }
+    }
+
     &__button {
       align-self: flex-end;
       width: 20px;
@@ -147,38 +179,6 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-    }
-  }
-
-  .card__large {
-    display: flex;
-    flex-direction: row;
-    width: 256px;
-    justify-content: space-between;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    padding: 16px;
-    background-color: #E0F0FF;
-    border-radius: 5px;
-    background-image: url(../../images/Factory.jpg);
-    background-size: initial;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-blend-mode: multiply;
-  }
-
-  .card__small {
-    background-color: #009FAC;
-    border-radius: 5px;
-    padding: 10px;
-    width: 120px;
-
-    &_left {
-      justify-self: flex-end;
-    }
-
-    &_right {
-      justify-self: flex-start;
     }
   }
 }
