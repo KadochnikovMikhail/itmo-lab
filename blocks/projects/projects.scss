@@ -1,0 +1,184 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .projects {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    font-family: 'OpenSans';
+    padding: 40px 16px 40px;
+    background-color: #001337;
+    
+    &__title {
+      font-style: normal;
+      font-size: 15px;
+      line-height: 22px;
+      font-weight: 600;
+      text-align: center;
+      color: white;
+      margin: 0 0 20px;
+    }
+
+    &__menu {
+      display: flex;
+      flex-direction: row;
+      min-width: 288px;
+      min-height: 42px;
+      padding: 0;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 2px solid #009FAC;
+
+      &_pointer {
+        margin: 0;
+        margin: 22px 0 12px;
+        cursor: pointer;
+      }
+    }
+
+    &__menu_all {
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 600;
+      text-align: center;
+      color: white;
+      margin: 16px 0 12px;
+    }
+
+    &__cards {
+      margin: 0;
+      padding: 20px 0 0;
+      display: grid;
+      gap: 8px;
+      list-style-type: none;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+    }
+
+    &__pagination {
+      display: flex;
+      flex-direction: row;
+      margin: 8px auto 0;
+      justify-content: center;
+
+      &_number {
+        color: #fff;
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 600;
+        margin: 5px 26.3px 5px 0;
+      }
+    
+      &_number:first-of-type {
+        margin: 5px 30px 5px 0;
+      }
+
+      &_number:last-of-type {
+        margin: 5px 30px 5px 0;
+      }
+
+      &_scroll {
+        margin-right: 26.3px;
+      }
+
+      &_scroll:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+
+    &__text {
+      color: #fff;
+      margin: 8px 0 0;
+    }
+
+    &__text_large {
+      color: #001337;
+      margin: 0;
+      max-width: 172px;
+    }
+
+    &__button {
+      align-self: flex-end;
+      width: 20px;
+      height: 20px;
+      background-image: url(../../images/Light.svg);
+      background-size: 160%;
+      background-position: 25% 35%;
+
+      &_large {
+        align-self: flex-end;
+        width: 20px;
+        height: 20px;
+        background-image: url(../../images/Button_blue.svg);
+        background-size: 210%;
+        background-position: 50% 38%;
+      }
+    }
+    &__logo_gazprom {
+      width: 60px;
+      height: 26px;
+      background-image: url(../../images/Gazprom.svg);
+      background-size: cover;
+    }
+
+    &__logo_sberbank {
+      width: 106px;
+      height: 26px;
+      background-image: url(../../images/Sberbank.svg);
+      background-size: cover;
+    }
+
+    &__logo_gazprom_blue {
+      width: 60px;
+      height: 26px;
+      background-image: url(../../images/gaz_blue.svg);
+      background-size: cover;
+    }
+
+    &__block {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  .card__large {
+    display: flex;
+    flex-direction: row;
+    width: 256px;
+    justify-content: space-between;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 16px;
+    background-color: #E0F0FF;
+    border-radius: 5px;
+    background-image: url(../../images/Factory.jpg);
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-blend-mode: multiply;
+  }
+
+  .card__small {
+    background-color: #009FAC;
+    border-radius: 5px;
+    padding: 10px;
+    width: 120px;
+
+    &_left {
+      justify-self: flex-end;
+    }
+
+    &_right {
+      justify-self: flex-start;
+    }
+  }
+}

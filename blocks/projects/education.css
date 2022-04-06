@@ -1,0 +1,97 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .education {
+    background-color: #009FAC;
+    padding: 40px 16px 40px;
+    font-family: "OpenSans";
+  }
+  .education__title {
+    margin: 0 0 20px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .education__paragraph {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0 auto 20px;
+    width: 288px;
+  }
+  .education__tab-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 256px;
+    margin: 16px auto 0;
+    min-width: 288px;
+    border: 1px solid #E0F0FF;
+    border-radius: 5px;
+  }
+  .education__tab-bar_tab {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    margin: 12px 0 12px;
+    text-align: center;
+  }
+  .education__tab-bar_button {
+    cursor: pointer;
+    width: 144px;
+    color: #E0F0FF;
+  }
+  .education__tab-bar_button:active {
+    background-color: #E0F0FF;
+    border-radius: 5px;
+    color: #000;
+  }
+  .education__block {
+    margin: 0 auto;
+    padding: 16px 16px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 16px;
+    width: 256px;
+  }
+  .education__block_subtitle {
+    margin: 12px 0 16px;
+  }
+  .education__block_ul {
+    padding: 0 0 0 22px;
+  }
+  .education__block_image {
+    width: 256px;
+    height: 160px;
+    background-size: cover;
+    border-radius: 5px;
+  }
+  .education__block_link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    width: 104px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}

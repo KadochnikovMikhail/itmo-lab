@@ -1,0 +1,112 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  /* line 2, ../../itmo-lab/blocks/projects/projects.scss */
+  .projects {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    font-family: 'OpenSans';
+    padding: 40px 16px 0;
+    background-color: #001337;
+  }
+  /* line 12, ../../itmo-lab/blocks/projects/projects.scss */
+  .projects__title {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin: 0 0 20px;
+  }
+  /* line 22, ../../itmo-lab/blocks/projects/projects.scss */
+  .projects__menu {
+    display: flex;
+    flex-direction: row;
+    min-width: 288px;
+    min-height: 42px;
+    padding: 0;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid #009FAC;
+  }
+  /* line 33, ../../itmo-lab/blocks/projects/projects.scss */
+  .projects__menu_all {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin: 16px 0 12px;
+  }
+  /* line 42, ../../itmo-lab/blocks/projects/projects.scss */
+  .projects__menu_pointer {
+    margin: 0;
+    margin: 22px 0 12px;
+  }
+  /* line 47, ../../itmo-lab/blocks/projects/projects.scss */
+  .projects__cards {
+    margin: 0;
+    padding: 20px 0 0;
+    display: grid;
+    gap: 8px;
+    list-style-type: none;
+    grid-template-columns: 1fr 1fr;
+  }
+  /* line 57, ../../itmo-lab/blocks/projects/projects.scss */
+  .card {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+  /* line 64, ../../itmo-lab/blocks/projects/projects.scss */
+  .card .card__text {
+    color: #fff;
+    margin: 8px 0 0;
+  }
+  /* line 69, ../../itmo-lab/blocks/projects/projects.scss */
+  .card .card__text_large {
+    color: #001337;
+    margin: 0;
+  }
+  /* line 74, ../../itmo-lab/blocks/projects/projects.scss */
+  .card .card__button {
+    width: 20px;
+    height: 20px;
+    background-image: url(../../images/Light.svg);
+    background-size: cover;
+  }
+  /* line 80, ../../itmo-lab/blocks/projects/projects.scss */
+  .card .card__logo_gazprom {
+    width: 60px;
+    height: 26px;
+    background-image: url(../../images/Gazprom.svg);
+    background-size: cover;
+  }
+  /* line 87, ../../itmo-lab/blocks/projects/projects.scss */
+  .card .card__logo_sberbank {
+    width: 106px;
+    height: 26px;
+    background-image: url(../../images/Sberbank.svg);
+    background-size: cover;
+  }
+  /* line 95, ../../itmo-lab/blocks/projects/projects.scss */
+  .card_large {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 16px;
+    background-color: #E0F0FF;
+    border-radius: 5px;
+  }
+  /* line 103, ../../itmo-lab/blocks/projects/projects.scss */
+  .card_small {
+    background-color: #009FAC;
+    border-radius: 5px;
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=projects.css.map */
