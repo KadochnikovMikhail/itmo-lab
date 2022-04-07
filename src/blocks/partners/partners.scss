@@ -62,8 +62,8 @@
 
   &__companies {
     background-color: #001337;
-    margin-top: -128px;
-    padding-top: 200px;
+    margin-top: -146px;
+    padding-top: 198px;
     color: white;
   }
 
@@ -75,7 +75,7 @@
   }
 
   &__brand-wall {
-    padding: 24px 16px 40px;
+    padding: 24px 16px 20px;
   }
 
   &__brand-row {
@@ -92,6 +92,25 @@
 
     &_size_big {
       height: 30px;
+    }
+  }
+}
+
+
+
+.swiper-horizontal>.swiper-pagination-bullets { 
+    bottom: 0;
+  }
+
+.swiper {
+  height: 277px;
+  &-pagination-bullet {
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    opacity: .5;
+    &-active {
+      opacity: 1;
     }
   }
 }
