@@ -1,0 +1,203 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .projects {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    font-family: "OpenSans";
+    padding: 40px 16px 40px;
+    background-color: #001337;
+  }
+  .projects__title {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin: 0 0 20px;
+  }
+  .projects__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    min-width: 288px;
+    min-height: 42px;
+    padding: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    border-bottom: 2px solid #009FAC;
+  }
+  .projects__menu_pointer {
+    margin: 0;
+    margin: 22px 0 12px;
+    cursor: pointer;
+  }
+  .projects__menu_all {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin: 16px 0 12px;
+  }
+  .projects__cards {
+    margin: 0;
+    padding: 20px 0 0;
+    display: -ms-grid;
+    display: grid;
+    gap: 8px;
+    list-style-type: none;
+    -ms-grid-columns: 1fr 8px 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .projects__pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 8px auto 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .projects__pagination_number {
+    color: #fff;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 5px 26.3px 5px 0;
+  }
+  .projects__pagination_number:first-of-type {
+    margin: 5px 30px 5px 0;
+  }
+  .projects__pagination_number:last-of-type {
+    margin: 5px 30px 5px 0;
+  }
+  .projects__pagination_scroll {
+    margin-right: 26.3px;
+  }
+  .projects__pagination_scroll:last-of-type {
+    margin-right: 0;
+  }
+
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+  .card__text {
+    color: #fff;
+    margin: 8px 0 0;
+  }
+  .card__text_large {
+    color: #001337;
+    margin: 0;
+    max-width: 172px;
+  }
+  .card__large {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 256px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 2;
+    grid-column-end: 3;
+    padding: 16px;
+    background-color: #E0F0FF;
+    border-radius: 5px;
+    background-image: url(../../images/Factory.jpg);
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-blend-mode: multiply;
+  }
+  .card__small {
+    background-color: #009FAC;
+    border-radius: 5px;
+    padding: 10px;
+    width: 120px;
+  }
+  .card__small_left {
+    justify-self: flex-end;
+  }
+  .card__small_right {
+    justify-self: flex-start;
+  }
+  .card__button {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../images/Light.svg);
+    background-size: 160%;
+    background-position: 25% 35%;
+  }
+  .card__button_large {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../images/Button_blue.svg);
+    background-size: 210%;
+    background-position: 50% 38%;
+  }
+  .card__logo_gazprom {
+    width: 60px;
+    height: 26px;
+    background-image: url(../../images/Gazprom.svg);
+    background-size: cover;
+  }
+  .card__logo_sberbank {
+    width: 106px;
+    height: 26px;
+    background-image: url(../../images/Sberbank.svg);
+    background-size: cover;
+  }
+  .card__logo_gazprom_blue {
+    width: 60px;
+    height: 26px;
+    background-image: url(../../images/gaz_blue.svg);
+    background-size: cover;
+  }
+  .card__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
