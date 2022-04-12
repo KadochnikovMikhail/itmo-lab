@@ -3,6 +3,11 @@
   font-family: 'OpenSans', 'Arial', 'Helvetica', sans-serif;
   background-color: #E0F0FF;
   color: #000D26;
+  max-width: 1440px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  margin: auto;
 }
 
 .publications__title {
@@ -18,10 +23,52 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-bottom: 14px;
+  padding-bottom: 34px;
 }
 
-.publications__swiper-pagination {
-  text-align: center;
+.publications__navigation {
+  width: 95%;
+  height: 500px;
+  position: absolute;
+  left: 3%;
+  top: 25%;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  .publications {
+    padding: 60px 39px;
+  }
+  .publications__title {
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+
+@media (min-width: 900px) {
+  .publications__list {
+    padding-bottom: 64px;
+  }
+  .publications__title {
+    font-size: 36px;
+    line-height: 68px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .publications {
+    padding: 30px 90px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .publications {
+    padding: 30px 165px;
+  }
+}
+
+.sticky-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30%;
 }
 /*# sourceMappingURL=publications.css.map */

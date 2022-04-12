@@ -4,7 +4,7 @@
   width: 100%;
   margin-left: -16px;
   padding: 11px 16px;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-between;
   &__link {
@@ -29,5 +29,16 @@
     border: 0;
     width: 24px;
     height: 24px;
+  }
+  @media (min-width: 900px) {
+    margin-left: -19px;
+    padding: 19px;
+    // display: none;
+    //opacity: 0;
+    // padding-left: 22px;
+    &__link {
+      font-size: 18px;
+      line-height: 30px;
+    }
   }
 }

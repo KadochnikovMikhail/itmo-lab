@@ -26,11 +26,31 @@
         <section class="projects"></section>
         <section class="education"></section>
         <section class="publications">
+            <div class="publications__navigation">
+                <div class="sticky-container">
+                    <div class="swiper-button-next publications__swiper-button-next"></div>
+                    <div class="swiper-button-prev publications__swiper-button-prev"></div>
+                </div>
+            </div>
             <h2 class="publications__title">ПУБЛИКАЦИИ</h2>
             <div class="swiper publications__swiper">
                 <ul class="publications__list swiper-wrapper">
                 </ul>
-                <div class="publications__swiper-pagination"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="link-holder">
+                <a class="link-holder__link" href="#">
+                    Читать полностью 
+                    <img class="link-holder__arrow"  src="<%=require('./images/arrow-down.svg')%>"  alt="Стрелочка">
+                </a>
+                <button class="link-holder__share link-holder__share_inactive"></button>
+                <ul class="share-icons-list">
+                    <li><button class="share-icon share-icon__vk"></button></li>
+                    <li><button class="share-icon share-icon__facebook"></button></li>
+                    <li><button class="share-icon share-icon__telegram"></button></li>
+                    <li><button class="share-icon share-icon__insta"></button></li>
+                    <li><button class="share-icon share-icon__youtube"></button></li>
+                </ul>
             </div>
         </section>
         <section class="team"></section>
@@ -61,9 +81,6 @@
                 </ul>
             </div>
         </li>
-    </template>
-    <template id="share-icons-template">
-        
     </template>
 </body>
 </html>
