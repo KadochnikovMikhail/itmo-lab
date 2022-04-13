@@ -74,9 +74,28 @@
   .publication {
     padding: 19px;
     padding-bottom: 0;
+    overflow: hidden;
   }
   .publication__img {
     height: 223px;
+    -webkit-transition: height 0.5s ease-in-out;
+    transition: height 0.5s ease-in-out;
+  }
+  .publication__author, .publication__img {
+    margin-bottom: 20px;
+  }
+  .publication:hover .link-holder {
+    margin-top: 0;
+    padding-left: 19px;
+    padding-right: 19px;
+    gap: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    visibility: visible;
+  }
+  .publication:hover .publication__img {
+    height: 170px;
   }
 }
 /*# sourceMappingURL=publication.css.map */

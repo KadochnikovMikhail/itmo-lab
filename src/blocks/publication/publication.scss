@@ -66,8 +66,26 @@
   @media (min-width: 900px) {
     padding: 19px;
     padding-bottom: 0;
+    overflow: hidden;
     &__img {
       height: 223px;
+      transition: height 0.5s ease-in-out;
+    }
+    &__author, &__img {
+      margin-bottom: 20px;
+    }
+    &:hover {
+      .link-holder {
+        margin-top: 0;
+        padding-left: 19px;
+        padding-right: 19px;
+        gap: 10px;
+        display: flex;
+        visibility: visible;
+      }
+      .publication__img {
+        height: 170px;
+      }
     }
   }
 }
