@@ -1,0 +1,5 @@
+.menu__subitem-container {
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,9 @@
+.menu__container {
+    padding-top: 16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    flex-direction: column;
+}

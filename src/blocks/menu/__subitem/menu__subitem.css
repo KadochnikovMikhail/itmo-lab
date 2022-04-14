@@ -1,0 +1,11 @@
+.menu__subitem {
+    visibility: hidden;
+    height: 0;
+    transition: visibiliti .2s, height .2s linear;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: .1px;
+    text-decoration: none;
+    color: white;
+}

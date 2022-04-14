@@ -1,0 +1,15 @@
+.menu {
+    visibility:hidden;
+    opacity: 0;
+    transition: visibility .2s, opacity 0.2s linear;
+    width: 100%;
+    max-width: 330px;
+    height: 492px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000D26;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    color: white;
+}

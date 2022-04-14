@@ -1,0 +1,5 @@
+.menu__subitem_active{
+    display: block;
+    visibility: visible;
+    height: 44px;
+}

@@ -11,17 +11,29 @@
             <img class="header__burger-menu-button" alt="Меню" src="<%=require('./images/Burger-menu.svg')%>">
             <img class="header__logo" alt="Логотип" src="<%=require('./images/logo.svg')%>">
         </div>
-        <nav class="menu">
-            <div class="menu__item"></div>
-            <div class="menu__item"></div>
-            <div class="menu__item"></div>
-            <div class="menu__item"></div>
-            <div class="menu__item"></div>
-            <div class="menu__item"></div>
-            <div class="menu__item"></div>
-        </nav>
 
+        <nav class="menu">
+            <div class = "menu__header">
+                <img class="menu__logo" alt="Логотип" src="<%=require('./images/logo.svg')%>">
+                <img class="menu__close" alt="закрыть" src="<%=require('./images/close.svg')%>">
+            </div>
+            <div class = "menu__container">
+                <a class="menu__item" href ="">О нас</a>
+                <a class="menu__item" href ="">Лаборатория</a>
+                <a class="menu__item" href ="">Проекты</a>
+                <div class = "menu__subitem-container">
+                    <div class="menu__item menu__item_main">Образование</div>
+                    <a class = "menu__subitem" href = "https://yandex.ru/">Аспирантура</a>
+                    <a class = "menu__subitem" href = "https://yandex.ru/">Магистратура</a>
+                </div>
+                <a class="menu__item" href ="">Публикации</a>
+                <a class="menu__item" href ="">Команда</a>
+                <a class="menu__item" href ="">Связаться</a>
+            </div>
+        </nav>
+    </header>
         <section class="lead">
+
             <h1 class = "lead__title-text"><span class = "lead__title-text_bold">Когнитивные технологии,</span> машинное обучение</h1>
             <p class = "lead__subtitle">Системы прикладного искусственного интеллекта</p>
             <a href="#"><button class = "lead__button">наши проекты</button></a>            
@@ -37,22 +49,100 @@
                     
                     <div class="about-us__swiper-slide swiper-slide">
                         <img class="about-us__swiper-pin" alt="Штифт" src="<%=require('./images/bulavka.svg')%>">
+                        <article>
+                            <p class = "about-us__swiper-date">Понедельник, 5 июля 2021г</p>
+                            <h2 class = "about-us__swiper-header">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h2>
+                            <div class = "about-us__swiper-line"></div>
+                            <p class = "about-us__swiper-text">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели  в течение десяти дней рассказывали им об основах машинного обучения. </p>
+                        </article>
                     </div>
                     <div class="about-us__swiper-slide swiper-slide">
                         <img class="about-us__swiper-pin" alt="Штифт" src="<%=require('./images/bulavka.svg')%>">
+                        <article>
+                            <p class = "about-us__swiper-date">Понедельник, 5 июля 2021г</p>
+                            <h2 class = "about-us__swiper-header">АВТОРЫ РОБОТА-МУЗЫКАНТА РОБЕРТА РОБОТЕЦКОГО ПРИЗНАНЫ ЛУЧШИМИ НОВИЧ…</h2>
+                            <div class = "about-us__swiper-line"></div>
+                            <p class = "about-us__swiper-text">Команда ИТМО стала лучшей на международном финале RoboCup-2021. Успех ребятам принес Роберт Роботецкий — робот-виртуоз, исполнивший знаменитый французский романс «Под небом Парижа». В подготовке команды участвовали сотрудники лаборатории.</p>
+                        </article>
                     </div>
                     <div class="about-us__swiper-slide swiper-slide">
                         <img class="about-us__swiper-pin" alt="Штифт" src="<%=require('./images/bulavka.svg')%>">
+                        <article>
+                            <p class = "about-us__swiper-date">Суббота, 3 июля 2021г</p>
+                            <h2 class = "about-us__swiper-header">ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021</h2>
+                            <div class = "about-us__swiper-line"></div>
+                            <p class = "about-us__swiper-text">Команда ИТМО сделала многое, чтобы вернуть формат выпускного этого и прошлого года. Из-за эпидемиологической ситуации отменена развлекательная часть, но сохранилась торжественная. Выпускники смогли получить дипломы из рук деканов и услышать поздравления ректора.</p>
+                        </article>
                     </div>
                     <div class="about-us__swiper-slide swiper-slide">
                         <img class="about-us__swiper-pin" alt="Штифт" src="<%=require('./images/bulavka.svg')%>">
+                        <article>
+                            <p class = "about-us__swiper-date">Пятница, 2 июля 2021г</p>
+                            <h2 class = "about-us__swiper-header">«LEAVING THE DIGITAL» — ИЛИ КАК СОЕДИНИТЬ ЦИФРОВОЕ, ТЕХНОЛОГИЧЕСКОЕ И БИОЛОГ…</h2>
+                            <div class = "about-us__swiper-line"></div>
+                            <p class = "about-us__swiper-text">Преподаватели центра Art & Science Университета ИТМО провели открытый воркшоп, посвященный созданию произведений, объединяющих в себе биологическую и синтетическую среды. Серия занятий приурочена к приемной кампании в магистратуру центра.</p>
+                        </article>
+                    </div>
+                    <div class="about-us__swiper-slide swiper-slide">
+                        <img class="about-us__swiper-pin" alt="Штифт" src="<%=require('./images/bulavka.svg')%>">
+                        <article>
+                            <p class = "about-us__swiper-date">Пятница, 2 июля 2021г</p>
+                            <h2 class = "about-us__swiper-header">В ИТМО ЗАПУСКАЕТСЯ ПЕРВАЯ ПРОЕТНАЯ МАГИСТРАТУРА — ДЛЯ АБИТУРИЕНТОВ ФАКУЛЬТЕТА П…</h2>
+                            <div class = "about-us__swiper-line"></div>
+                            <p class = "about-us__swiper-text">Особенность нового формата магистратуры в том, что студенты смогут составлять программу своего обучения, выбирать только те курсы, которые им интересны, а главное — работать над технологически сложным проектом под руководством менторов из топовых IT-компаний.</p>
+                        </article>
+                    </div>
+                    <div class="about-us__swiper-slide swiper-slide">
+                        <img class="about-us__swiper-pin" alt="Штифт" src="<%=require('./images/bulavka.svg')%>">
+                        <article>
+                            <p class = "about-us__swiper-date">Пятница, 2 июля 2021г</p>
+                            <h2 class = "about-us__swiper-header">КОГДА НЕ ЗАНИМАЕШЬСЯ СВОИМ ОБРАЗОВАНИЕМ, МОЖНО ПРИЙТИ К СОТСТОЯНИ…</h2>
+                            <div class = "about-us__swiper-line"></div>
+                            <p class = "about-us__swiper-text">Владислав Танков поступил в ИТМО будучи специалистом в компании JetBrains. На одном из хакатонов в рамках программы с JetBrains он сделал плагин для проверки грамотности текстов в среде разработки IntelliJ IDEA. После окончания магистратуры Владислав возглавил команду разработки.</p>
+                        </article>
+                    </div>
+                    <div class="about-us__swiper-slide swiper-slide">
+                        <img class="about-us__swiper-pin" alt="Штифт" src="<%=require('./images/bulavka.svg')%>">
+                        <article>
+                            <p class = "about-us__swiper-date">Четверг, 1 июля 2021г</p>
+                            <h2 class = "about-us__swiper-header">СТУДЕНТЫ ИТМО И ВЫПУСКНИКИ ЛЭТИ РАЗРАБОТАЛИ МОДУЛЬ ДЛЯ БЫ…</h2>
+                            <div class = "about-us__swiper-line"></div>
+                            <p class = "about-us__swiper-text">Интеллектуальный модуль для станций зарядки позволяет заряжать накопители в электрокарах и электросамокатах быстрее, чем при питании от сети. Программное обеспечение модуля обеспечивает защиту в случае аварийных ситуаций и повышает эффективность всего зарядного устройства.</p>
+                        </article>
+                    </div>
+                    <div class="about-us__swiper-slide swiper-slide">
+                        <img class="about-us__swiper-pin" alt="Штифт" src="<%=require('./images/bulavka.svg')%>">
+                        <article>
+                            <p class = "about-us__swiper-date">Четверг, 1 июля 2021г</p>
+                            <h2 class = "about-us__swiper-header">КАКИЕ СУЩЕСТВУЮТ ВАКЦИНЫ, КАК ИХ ИСПЫТЫВАЮТ, И ПО КАКИМ ПРИНЦЫПАМ ИХ СЛЕДУ…</h2>
+                            <div class = "about-us__swiper-line"></div>
+                            <p class = "about-us__swiper-text">Вакцинация от коронавируса стала одной из главных тем. Весь мир следит за количеством привитых. Прививочная кампания дает результат — снижается смертность, количество госпитализаций. Но вокруг вакцинации остается много мифов, которые вызывают у скептиков споры.</p>
+                        </article>
+                    </div>
+                    <div class="about-us__swiper-slide swiper-slide">
+                        <img class="about-us__swiper-pin" alt="Штифт" src="<%=require('./images/bulavka.svg')%>">
+                        <article>
+                            <p class = "about-us__swiper-date">Среда, 30 июня 2021г</p>
+                            <h2 class = "about-us__swiper-header">УНИВЕРСИТЕТ ИТМО ЗАПУСКАЕТ НОВУЮ КОРПОРАТИВНУЮ СПЕЦИАЛИЗАЦИЮ В МАГИСТРА…</h2>
+                            <div class = "about-us__swiper-line"></div>
+                            <p class = "about-us__swiper-text">Партнером нового направления станет Napoleon IT. Сотрудники компании и преподаватели ИТМО будут готовить магистров, которые смогут работать в проектах, связанных с распознаванием лиц, технологиями deepfake, созданием приложений для распознавания предметов.</p>
+                        </article>
+                    </div>
+                    <div class="about-us__swiper-slide swiper-slide">
+                        <img class="about-us__swiper-pin" alt="Штифт" src="<%=require('./images/bulavka.svg')%>">
+                        <article>
+                            <p class = "about-us__swiper-date">Среда, 30 июня 2021г</p>
+                            <h2 class = "about-us__swiper-header">СТУДЕНТКА И СОТРУДНИЦА ИТМО АННА ВОЛОШИНА ПОЛУЧИЛА БРОНЗОВОГО СФИН...</h2>
+                            <div class = "about-us__swiper-line"></div>
+                            <p class = "about-us__swiper-text">В Петропавловской крепости состоялась торжественная церемония вручения наград лучшим выпускникам Санкт-Петербурга. Среди тех, кто получил памятную статуэтку, была выпускница факультета технологического менеджмента и инноваций Анна Волошина. </p>
+                        </article>
                     </div>
                 </div>
             </div>
             <div class="about-us__swiper-pagination swiper-pagination"></div>
                 
         </section>
-    </header>
+    
     <main class="main">
         <section class="lab-description"></section>
         <section class="projects"></section>
